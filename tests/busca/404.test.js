@@ -19,7 +19,7 @@ module.exports = {
             .click('@searchIcon')
     },
 
-    'então devo ver uma mensagem de alerta': function(browser) {
+    'então devo ver uma mensagem de alerta ggg': function(browser) {
         let movie = browser.page.movie()
 
         movie

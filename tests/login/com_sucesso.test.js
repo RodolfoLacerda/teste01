@@ -5,7 +5,7 @@ module.exports = {
         let login = browser.page.login()
         let sidebar = browser.page.sidebar()
 
-        login.with('farleyrodolfo@gmail.com', 'Dodo940Dodo9408088088')
+        login.with('farleyrodolfo@gmail.com', 'Dodo940808')
         sidebar.expectLoggedUser('Rodolfo')
     }
 }

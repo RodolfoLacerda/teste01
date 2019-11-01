@@ -8,7 +8,7 @@ module.exports = {
         let sidebar = browser.page.sidebar()
 
         login.with('farleyrodolfo@gmail.com', 'Dodo940808')
-        sidebar.expectLoggedUser('Quilombo')
+        sidebar.expectLoggedUser('Rodolfo')
     },
 
     'quando eu busco um titulo não cadastrado': function(browser) {

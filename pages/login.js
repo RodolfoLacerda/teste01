@@ -7,6 +7,7 @@ var loginActions = {
             .setValue('@emailInput', email)
             .setValue('@passInput', pass)
             .click('@loginButton')
+            
     },
     expectAlertDanger: function (texto) {
         return this

@@ -1,5 +1,5 @@
 pipeline {
-    a
+    
     stages {
         stage('Build') {
             steps {

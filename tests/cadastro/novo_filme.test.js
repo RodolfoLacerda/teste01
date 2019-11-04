@@ -52,5 +52,6 @@ module.exports = {
         movie
             .waitForElementPresent('@list', 10000)
             .assert.containsText('@list', movieData.title)
+            
     }
 }
